@@ -1,0 +1,28 @@
+<footer class="site-footer">
+	<div class="footer-content">
+		<p>
+			&copy; {{ site.time | date: '%Y' }} {{ site.title | default:
+			site.github.repository_name }}. All rights reserved.
+		</p>
+		<div class="footer-links">
+			{% if site.github.repository_url %}
+			<a
+				href="{{ site.github.repository_url }}"
+				target="_blank"
+				rel="noopener"
+				>GitHub</a
+			>
+			{% endif %} {% if site.email %}
+			<a href="mailto:{{ site.email }}">Contact</a>
+			{% endif %} {% if site.privacy_policy %}
+			<a href="{{ site.privacy_policy }}" target="_blank" rel="noopener"
+				>Privacy Policy</a
+			>
+			{% endif %} {% if site.terms_of_service %}
+			<a href="{{ site.terms_of_service }}" target="_blank" rel="noopener"
+				>Terms of Service</a
+			>
+			{% endif %}
+		</div>
+	</div>
+</footer>

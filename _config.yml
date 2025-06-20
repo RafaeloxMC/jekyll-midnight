@@ -2,4 +2,20 @@ title: jekyll-midnight
 description: "jekyll-midnight is a clean, dark, AMOLED-style theme for Jekyll."
 encoding: utf-8
 
+github:
+    repository_url: "https://github.com/RafaeloxMC/jekyll-midnight"
+
+# Examples you could configure:
+# email: "mail@example.com"
+# privacy_policy: "https://example.com/privacy-policy"
+# terms_of_service: "https://example.com/terms-of-service"
+
+highlighter: rouge
+markdown: kramdown
+kramdown:
+    syntax_highlighter: rouge
+    syntax_highlighter_opts:
+        block:
+            line_numbers: false
+            start_line: 1
 exclude: ["README.md", "LICENSE", "*.gem", "*.gemspec", "Gemfile.lock"]
