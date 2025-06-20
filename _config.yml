@@ -18,4 +18,10 @@ kramdown:
         block:
             line_numbers: false
             start_line: 1
+
+collections:
+    posts:
+        output: true
+        permalink: /blog/:year/:month/:day/:title/
+
 exclude: ["README.md", "LICENSE", "*.gem", "*.gemspec", "Gemfile.lock"]
