@@ -1,5 +1,5 @@
-title: tonic-starter
-description: ""
+title: jekyll-midnight
+description: "jekyll-midnight is a clean, dark, AMOLED-style theme for Jekyll."
 encoding: utf-8
 
 exclude: ["README.md", "LICENSE", "*.gem", "*.gemspec", "Gemfile.lock"]
